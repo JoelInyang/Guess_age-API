@@ -24,7 +24,7 @@ cd Guess-age-API
 docker-compose up --build
 
 
-<b>Access the application in your browser at http://127.0.0.1:8000.</b>
+<b>Access the application in your browser at http://127.0.0.1:8000</b>
 
 <h3>Additional Steps for Production</h3>
 
