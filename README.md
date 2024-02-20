@@ -5,7 +5,7 @@ The Guess Age API is a simple API that takes a name as input and predicts the ag
 
 <h3>How to Run the Project</h3>
 
-<h4>Prerequisites</h4>
+<h4>Prerequisites:</h4>
 * Docker
 * Docker Compose
 
@@ -24,25 +24,26 @@ cd Guess-age-API
 docker-compose up --build
 
 
-Access the application in your browser at http://localhost:8000.
+<b>Access the application in your browser at http://127.0.0.1:8000.</b>
 
-Additional Steps for Production
-Security: Ensure that sensitive information such as database passwords and API keys are stored securely and not hard-coded in the source code. Use environment variables or a secret management system.
+<h3>Additional Steps for Production</h3>
 
-Monitoring: Implement logging and monitoring solutions to track application behavior and performance. This can include error tracking, performance monitoring, and logging of important events.
+<h4>Security</h4> : I will ensure that sensitive information such as database passwords and API keys are stored securely and not hard-coded in the source code. Use environment variables or a secret management system.
 
-Backup and Recovery: Set up regular backups of your database and application data to prevent data loss. Have a disaster recovery plan in place to restore services in case of failure.
+<h4>Monitoring</h4> : I will ensure implement logging and monitoring solutions to track application behavior and performance. This can include error tracking, performance monitoring, and logging of important events.
 
-Scalability: Design your application to be scalable. Consider using container orchestration tools like Kubernetes for managing and scaling your application in production.
+<h4>Backup and Recovery</h4> : I will set up regular backups of the database and application data to prevent data loss. Have a disaster recovery plan in place to restore services in case of failure.
 
-Load Testing: Perform load testing to ensure that your application can handle the expected amount of traffic and users. This can help identify bottlenecks and performance issues before they affect users.
+<h4>Scalability</h4> : I will design the application to be scalable. Consider using container orchestration tools like Kubernetes for managing and scaling the application in production.
 
-Continuous Integration and Deployment (CI/CD): Implement CI/CD pipelines to automate the testing, building, and deployment of your application. This can help reduce the time and effort required to release new features and updates.
+<h4>Load Testing</h4> : Perform load testing to ensure that the application can handle the expected amount of traffic and users. This can help identify bottlenecks and performance issues before they affect users.
 
-Security Audits: Regularly conduct security audits of your application and dependencies to identify and address potential vulnerabilities.
+<h4>Continuous Integration and Deployment (CI/CD)</h4> : I will implement CI/CD pipelines to automate the testing, building, and deployment of the application. This can help reduce the time and effort required to release new features and updates.
 
-Documentation: Maintain up-to-date documentation for your project, including installation and usage instructions, architecture diagrams, and API documentation.
+<h4>Security Audits</h4> : Regularly conduct security audits of the application and dependencies to identify and address potential vulnerabilities.
 
-User Feedback and Monitoring: Collect user feedback and monitor user behavior to identify areas for improvement and prioritize feature development.
+<h4>Documentation</h4> : Maintain up-to-date documentation for the project, including installation and usage instructions, architecture diagrams, and API documentation.
 
-Compliance: Ensure that your application complies with relevant regulations and standards, such as GDPR, HIPAA, or PCI DSS, depending on your industry and location.
+<h4>User Feedback and Monitoring</h4> : Collect user feedback and monitor user behavior to identify areas for improvement and prioritize feature development.
+
+<h4>Compliance</h4> : Ensure that your application complies with relevant regulations and standards, such as GDPR, HIPAA, or PCI DSS, depending on the industry and location.
