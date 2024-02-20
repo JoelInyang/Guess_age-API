@@ -10,22 +10,20 @@ The Guess Age API is a simple API that takes a name as input and predicts the ag
 * Docker Compose
 
 
-Steps
-Clone the repository:
+<h3>Steps</h3>
+<h5>Clone the repository:</h5>
 
-bash
-Copy code
-git clone https://github.com/your-username/guess-age-api.git
-Change to the project directory:
+<b>https://github.com/JoelInyang/Guess_age-API</b>
 
-bash
-Copy code
-cd guess-age-api
-Build the Docker image and start the containers:
+<h4>Change to the project directory:</h4>
 
-bash
-Copy code
+cd Guess-age-API
+
+<b>Build the Docker image and start the containers:</b>
+
 docker-compose up --build
+
+
 Access the application in your browser at http://localhost:8000.
 
 Additional Steps for Production
